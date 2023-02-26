@@ -6,6 +6,9 @@ public class bSearchingAnElement {
         bSearchingAnElement sll = new bSearchingAnElement();
 
         sll.head = new ListNode(8);
+        ListNode second = new ListNode(34);
+
+        sll.head.next = second;
 
     }
     
